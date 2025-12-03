@@ -1,0 +1,16 @@
+{
+  "name": "seatopen-notifier",
+  "version": "1.0.0",
+  "description": "Virginia Tech course seat availability notifier",
+  "main": "src/init.js",
+  "scripts": {
+    "start": "node src/init.js",
+    "test": "node src/seatParser.test.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^16.4.7",
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^24.31.0"
+  }
+}
